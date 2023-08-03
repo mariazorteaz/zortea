@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(237, 204, 166);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#carousel {
+    max-width: 80%;
+    overflow: hidden;
+}
+
+#carousel img {
+    width: 100%;
+    height: auto;
+    transition: transform 1s ease;
+}
+
+h1 {
+    margin-top: 20px; 
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Big Shoulders Inline Display', cursive;
+    font-family: 'Big Shoulders Inline Text', cursive;
+}
+.texto{
+    text-align: justify;
+  
+}
+h3{
+    text-align: center;
+}
